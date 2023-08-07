@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="assets/css/style.index.css">
 </head>
 <body>
-    <h1>PróximosPosts</h1>
+    <main>
+    <h1>Próximos Posts</h1>
 
     <div id="postForm">
         <div>
             <label for="title">Título</label>
-            <input type="text" id="titlle" name="titlle" required>
+            <input type="text" id="title" name="title" required>
         </div>
 
         <div>
@@ -31,9 +32,10 @@
             <input type="date" id="date" name="date" required>
         </div>
 
-        <button>Cadastrar</button>
+        <button onclick="savePost()">Cadastrar</button>
     </div>
 
     <div id="list"></div>
+</main>
 </body>
 </html>
